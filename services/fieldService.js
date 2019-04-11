@@ -1,12 +1,7 @@
 const fieldModel = require('../models/fieldModel');
 const carServicePromise = require('../services/carService');
 
-let fieldService;
-(async () => {
-    let collection = await fieldModel.getCollectionField();
-    fieldService = new FiledService(collection);
-})();
-
+let fieldService = async () => new FiledService(await fieldModel.getCollectionField());
 
 class FiledService {
     constructor(collection) {
@@ -28,10 +23,6 @@ class FiledService {
         return await this.collection.findOneAndUpdate({},
             {$set: {carsCurrentList: newArrayCar}}, {returnOriginal: false});
     }
-
 }
 
-
-module.exports = async () => {
-    return fieldService;
-};
+module.exports = async () => fieldService();

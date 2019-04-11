@@ -32,13 +32,7 @@ class CarService {
 }
 
 //Получение колекции с модели
-let exportCarModel;
-(async () => {
-    let collection = await carModel.getCollectionCar();
-    exportCarModel = new CarService(collection);
-})();
+let exportCarModel = async () => new CarService(await carModel.getCollectionCar());
 
 //Отправка в функции async потому что мы не знаем когда прийдут значения с модели
-module.exports = async () => {
-    return exportCarModel;
-};
+module.exports = async () => exportCarModel();

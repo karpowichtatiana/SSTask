@@ -8,15 +8,8 @@ class Garage {
     async getGarage() {
         return await this.garageCollection.findOne();
     };
-
 }
 
-let exportGarage;
+let exportGarage = async () => new Garage(await garageModel.getCollectionGarage());
 
-
-(async () => {
-    let collection = await garageModel.getCollectionGarage();
-    exportGarage = new Garage(collection);
-})();
-
-module.exports = async () => exportGarage;
+module.exports = async () => exportGarage();
