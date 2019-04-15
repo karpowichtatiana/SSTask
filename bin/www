@@ -10,7 +10,7 @@ var app = require('../app');
 var debug = require('debug')('sstask1:server');
 var http = require('http');
 const config = require('../config/nconf');
-
+let db = require('./db');
 /**
  * Get port from environment and store in Express.
  */
@@ -19,21 +19,25 @@ var port = normalizePort(process.env.PORT || config.get('port'));
 
 app.set('port', port);
 
-/**
- * Create HTTP server.
- */
-
 var server = http.createServer(app);
+
+let connectDbAndStartServer = async () => {
+    await db.connect;
+    console.log("Подключились к базе");
+    server.listen(port, () => {
+        console.log('Сервак запущен');
+    });
+
+    server.on('error', onError);
+    server.on('listening', onListening);
+};
+
+connectDbAndStartServer();
 
 /**
  * Listen on provided port, on all network interfaces.
  */
 
-
-console.log('Сервак запущен');
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
 
 /**
  * Normalize a port into a number, string, or false.

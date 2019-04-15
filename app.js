@@ -4,13 +4,16 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
+var loger = require('./loggers/logger');
 
 var indexRouter = require('./routes/indexRouter');
 var carsRouter = require('./routes/carsRouter');
 var fieldRouter = require('./routes/fieldRouter');
 let garageRouter = require("./routes/garageRouter");
 
-var db = require('./bin/db').mongoClient;
+let db = require('./bin/db').mongoClient;
+
+// (async () => require('./dbInitial/initScript').initialScript())();
 
 var app = express();
 
@@ -24,6 +27,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(loger);
 
 app.use('/', indexRouter);
 app.use('/cars', carsRouter);

@@ -6,8 +6,12 @@ const mongodb = async () => new MongoClient.connect(url, {useNewUrlParser: true}
 
 const mongoClient = async () => {
     let value = await mongodb();
-    console.log('Подключилось к БД');
     return value.db('Farm');
 };
 
 module.exports.mongoClient = mongoClient();
+module.exports.connect = mongodb();
+module.exports.close = async () => {
+    var closeConnection = await mongodb();
+    closeConnection.close();
+};

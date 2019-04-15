@@ -1,0 +1,32 @@
+[   
+    {
+        "numberSign": "AX-111",
+        "carWeight": 4000,
+        "cornWeight": 200
+    },
+    {
+        "numberSign": "AR-178",
+        "carWeight": 2000,
+        "cornWeight": 500
+    },
+    {
+        "numberSign": "AK-392",
+        "carWeight": 3250,
+        "cornWeight": 400
+    },
+    {
+        "numberSign": "AR-861",
+        "carWeight": 2000,
+        "cornWeight": 450
+    },
+    {
+        "numberSign": "SS-111",
+        "carWeight": 4000,
+        "cornWeight": 400
+    },
+    {
+        "numberSign": "EE-185",
+        "carWeight": 4000,
+        "cornWeight": 500
+    }
+]

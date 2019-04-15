@@ -1,0 +1,40 @@
+
+Method: GET
+URL: http://localhost/garage/cars
+{"cache-control":"no-cache","postman-token":"96312786-cf5a-4b58-9df0-97e496819606","user-agent":"PostmanRuntime/7.6.1","accept":"*/*","host":"localhost:3000","accept-encoding":"gzip, deflate","connection":"keep-alive"}
+Date: 2019.4.15   13:49:29
+
+Method: GET
+URL: http://localhost/garage/cars
+{"cache-control":"no-cache","postman-token":"6b9815c4-2a34-4016-ba6a-b2ac775259e6","user-agent":"PostmanRuntime/7.6.1","accept":"*/*","host":"localhost:3000","accept-encoding":"gzip, deflate","connection":"keep-alive"}
+Date: 2019.4.15   13:49:29
+
+Method: GET
+URL: http://localhost/garage/cars
+{"cache-control":"no-cache","postman-token":"bc521f01-892c-4634-bd69-30a11f7eda5e","user-agent":"PostmanRuntime/7.6.1","accept":"*/*","host":"localhost:3000","accept-encoding":"gzip, deflate","connection":"keep-alive"}
+Date: 2019.4.15   13:49:30
+
+Method: GET
+URL: http://localhost/garage/cars
+{"cache-control":"no-cache","postman-token":"454c8081-81ff-48e2-ad48-be2cd25690f9","user-agent":"PostmanRuntime/7.6.1","accept":"*/*","host":"localhost:3000","accept-encoding":"gzip, deflate","connection":"keep-alive"}
+Date: 2019.4.15   13:57:33
+
+Method: GET
+URL: http://localhost/garage/cars
+{"cache-control":"no-cache","postman-token":"e767d3dc-f755-4e62-b5c0-d4609795e082","user-agent":"PostmanRuntime/7.6.1","accept":"*/*","host":"localhost:3000","accept-encoding":"gzip, deflate","connection":"keep-alive"}
+Date: 2019.4.15   14:1:26
+
+Method: GET
+URL: http://localhost/cars
+{"host":"localhost:3000","connection":"keep-alive","purpose":"prefetch","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6","cookie":"Phpstorm-585ade5c=317cff01-6889-43ee-adeb-399e729cae2b","if-none-match":"W/\"22d-9uelh+Ieu83fTqN7N/LckOBp6Ys\""}
+Date: 2019.4.15   14:31:51
+
+Method: GET
+URL: http://localhost/cars
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6","cookie":"Phpstorm-585ade5c=317cff01-6889-43ee-adeb-399e729cae2b","if-none-match":"W/\"22d-9uelh+Ieu83fTqN7N/LckOBp6Ys\""}
+Date: 2019.4.15   14:31:53
+
+Method: GET
+URL: http://localhost/cars
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6","cookie":"Phpstorm-585ade5c=317cff01-6889-43ee-adeb-399e729cae2b","if-none-match":"W/\"22d-9uelh+Ieu83fTqN7N/LckOBp6Ys\""}
+Date: 2019.4.15   14:31:54
